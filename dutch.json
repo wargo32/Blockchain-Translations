@@ -3,10 +3,10 @@
    "name":"Dutch",
    "strings":{
       "connected_nodes":{
-         "sub_header":"Lijst van nodes die aan blockchain.info verbonden zijn",
-         "title":"Lijst van Bitcoin verbonden nodes",
+         "sub_header":"Lijst van knooppunten die met blockchain.info verbonden zijn",
+         "title":"Lijst van met Bitcoin verbonden knooppunten",
          "location":"Locatie",
-         "header":"Verbonden Nodes"
+         "header":"Verbonden Knooppunten"
       },
       "popular_addresses":{
          "sub_header":"Meest populaire Bitcoin adressen gesorteerd op het aantal bestemmingen",
@@ -16,7 +16,8 @@
       },
       "transaction":{
          "fee":"Kosten:",
-         "double_spend":"Dubbele betaling!"
+         "double_spend":"Dubbele betaling!",
+         "size":"Grootte:"
       },
       "deposit":{
          "make_anonymous":"Maak anoniem?",
@@ -87,8 +88,8 @@
             "update_main_password":"Verander hoofdwachtwoord",
             "alias_placeholder":"Een bijnaam of ander makkelijk te onthouden woord",
             "two_factor_authentication":"Dubbele authenticatie",
-            "fee_policy_high_description":"De Kosten zullen gebruikt worden om ervoor te zorgen dat uw transacties hoge prioriteit hebben (0,001 BTC Basiskosten).",
-            "mobile_number_description":"Voer hieronder uw mobiele telefoonnummer in. Internationale SMS-berichten zijn soms onbetrouwbaar en mogelijk niet beschikbaar voor bepaalde landen en netwerken.",
+            "fee_policy_high_description":"De kosten zullen gebruikt worden om ervoor te zorgen dat uw transacties hoge prioriteit hebben (0,001 BTC basiskosten).",
+            "mobile_number_description":"Voer hieronder uw mobiele telefoonnummer in. Internationale SMS-berichten zijn soms onbetrouwbaar en zijn mogelijk niet beschikbaar voor bepaalde landen en netwerken.",
             "fee_policy_high":"Hoog",
             "lock_to_ip":"Beperk tot dit IP:",
             "logging_deletion":"Het veranderen van het log niveau verwijdert geen bestaande logbestanden. Logs vervallen na 2 weken.",
@@ -111,12 +112,12 @@
             "never_remember_two_factor_description":"Standaard zal uw browser na het inloggen met dubbele authenticatie voor een korte periode dit onthouden zonder dat opnieuw ingelogd hoeft te wordt. Vink dit vakje aan als u dit gedrag uit wilt schakelen en elke keer een volledige login vereist.",
             "security_warning_continue":"Verder gaan",
             "integrity_check_run":"Voer controle uit",
-            "html5_notifications_p1":"HTML 5 notificaties verschillen van reguliere pop-ups omdat deze laatsten alleen met toestemming van de gebruiker kunnen worden getoond. Momenteel werkt deze functie in Chrome & Safari.",
+            "html5_notifications_p1":"HTML 5 notificaties verschillen van reguliere pop-ups doordat deze laatste alleen met toestemming van de gebruiker kunnen worden getoond. Momenteel werkt deze functie in Chrome & Safari.",
             "double_encryption_enabled":"Dubbele encryptie is ingeschakeld. Een tweede wachtwoord wordt vereist voordat u bitcoins kunt verzenden.",
             "enter_sms_code":"Voer de code uit het SMS-bericht in.",
             "enable_double_encryption":"Dubbele encryptie inschakelen",
             "fee_policy_low_warning":"Transacties zullen aanzienlijk langzamer verwerkt worden",
-            "logging_level_description":"Het logniveau bepaalt welke gegevens worden geregistreerd wanneer uw acties uitvoert met uw portemonnee. Standaard is het log uitgeschakeld, afgezien van adminhandelingen. Het inschakelen van het log biedt een betere beveiliging door het verstrekken van meer informatie over potentiële onbevoegde toegang tot uw portemonnee, maar hiervoor wordt wel wat privacy opgeofferd.",
+            "logging_level_description":"Het logniveau bepaalt welke gegevens worden geregistreerd wanneer u acties uitvoert met uw portemonnee. Standaard is het log uitgeschakeld, afgezien van adminhandelingen. Het inschakelen van het log biedt een betere beveiliging door het verstrekken van meer informatie over potentiële onbevoegde toegang tot uw portemonnee, maar hiervoor wordt wel wat privacy opgeofferd.",
             "never_remember_two_factor":"Onthoud de dubbele authenticatie nooit",
             "nav":{
                "notifications":"Notificaties",
@@ -127,7 +128,7 @@
             "sms_verified":"geverifieerd per SMS",
             "restrict_to_ip":"Te beperken tot IP",
             "password_mnemonic":"Wachtwoord ezelsbruggetje",
-            "http_notifications":"Http notificaties",
+            "http_notifications":"HTTP notificaties",
             "integrity_check_description":"Controleert of alle adressen in uw portemonnee overeenkomen met de juiste bitcoin adressen en hercodeert uw portemonnee. Dit kan lang duren in sommige browsers."
          },
          "wallet_home":{
@@ -463,7 +464,9 @@
          "my_wallet":"Mijn Portemonnee",
          "new_users_p1":"Het creëren van een nieuwe Bitcoin portemonnee neemt letterlijk maar een paar seconden in beslag. U kunt meteen betalingen versturen en ontvangen.",
          "help_p1":"Raadpleeg de FAQ voor veelgestelde vragen. Voor problemen met de site kunt u contact met ons opnemen.",
-         "start_new":"Start een nieuwe portemonnee"
+         "start_new":"Maak een nieuwe portemonnee",
+         "login_now":"Inloggen",
+         "support_pages":"Ondersteuningspagina's"
       },
       "unconfirmed":{
          "summary":"Samenvatting",
@@ -471,11 +474,11 @@
          "total_fees":"Totaal aan Kosten"
       },
       "hub_nodes":{
-         "sub_header":"Dit toont de nodes die de meeste transacties als eerste hebben doorgegeven aan blockchain.info. De nodes op deze pagina zijn vaak goed aangesloten knooppunten voor handelaren of mijners.",
-         "title":"Bitcoin Hub Nodes - Blockchain.info",
-         "meta_description":"IP-adressen van bitcoin nodes waarvan de meeste transacties worden doorgeven aan blockchain.info",
-         "relay_count":"Graaf van nodes",
-         "header":"Hub nodes"
+         "sub_header":"Dit toont de knooppunten die de meeste transacties als eerste hebben doorgegeven aan blockchain.info. De knooppunten op deze pagina zijn vaak goed aangesloten knooppunten voor handelaren of mijners.",
+         "title":"Bitcoin Hub Knooppunten - Blockchain.info",
+         "meta_description":"IP-adressen van bitcoin knooppunten waarvan de meeste transacties worden doorgeven aan blockchain.info",
+         "relay_count":"Aantal keer doorgegeven",
+         "header":"Hub knooppunten"
       },
       "transaction_page":{
          "summary":"Samenvatting",
@@ -485,8 +488,10 @@
          "network_propagation":"Netwerk Doorloop (Klik om te tonen)",
          "total_input":"Totaal aan ingaande transacties",
          "decoded":"onversleuteld",
+         "minutes":"minuten",
          "output_scripts":"Uitgaande Scripts",
          "total_output":"Totaal uitgaand vermogen",
+         "relayed_by_ip_warning":"Het weergegeven IP-adres identificeert het Bitcoin knooppunt die deze transactie als eerste heeft uitgezonden naar Blockchain.info. Dit betekent dus niet noodzakelijk dat de betaling ook is verricht vanaf dit IP-adres.",
          "double_spend":{
             "p2":"Je moet heel voorzichtig zijn bij het vertrouwen van transacties van \/ met deze afzender.",
             "p1":"Waarschuwing! deze transactie is een dubbele uitgave"
@@ -503,17 +508,17 @@
          "invalid_block_hash":"Ongeldige blokhash"
       },
       "rejected":{
-         "sub_header":"Transacties en blokken die zijn afgewezen door onze bitcoin nodes.",
+         "sub_header":"Transacties en blokken die zijn afgewezen door onze Bitcoin knooppunten.",
          "title":"Afgewezen Transacties & Blokken - Blockchain.info",
          "hash":"Hash",
          "header":"Afgewezen inventaris"
       },
       "error_page":{
-         "p1":"Als u denkt dat dit een fout is kunt u hier contact opnemen {0}.",
+         "p1":"Als u denkt dat dit een fout is kunt u contact met ons opnemen via {0}.",
          "error_404":"Pagina niet gevonden, controleer of u het adres juist getypt heeft."
       },
       "propagation":{
-         "node_list_sub":"Alle nodes die dit inventarisitem hebben doorgegeven",
+         "node_list_sub":"Alle knooppunten die dit inventarisitem hebben doorgegeven",
          "summary":"Samenvatting",
          "probable_owner":"Waarschijnlijke Eigenaar",
          "sub_header":"Toont de verdeling van een transactie of blok over het gehele netwerk",
@@ -534,18 +539,20 @@
          "availability_p1":" Wij streven naar 99,5% uptime, maar deze dienst wordt geleverd op een best effort basis. Als er geplande onderhoud is zullen we gebruikers dit laten weten per e-mail.",
          "view_website_status":"Bekijk Website Status",
          "company_footer":"Blockchain.info is eigendom van en wordt geëxploiteerd door Qkos Services Ltd geregistreerd in het Verenigd Koninkrijk onder ondernemingsnummer 05106799",
-         "about_p1":"Blockchain.info is de meest populaire Bitcoin portemonnee en blokexplorer. Vanaf oktober 2012 ontvangt de site meer dan 10.000 bezoekers per dag en hebben we meer dan 30.000 gebruikers.",
-         "contact_us":"Neem contact op"
+         "about_p1":"Blockchain.info is de meest populaire bitcoin portemonnee en blokexplorer. Vanaf januari 2013 heeft de site meer dan 110.000 gebruikers.",
+         "contact_us":"Neem contact met ons op"
       },
       "wallet_index":{
          "control":{
             "title":"Behoud Controle",
             "p4":"wat betekent dat Bitcoin portemonnees nooit in beslag kunnen worden genomen of geblokkeerd kunnen worden. Tevens kunnen ze worden geïmporteerd in elke desktop Bitcoin client.",
             "p2":"Met Mijn Portemonnee behoudt u de volledige controle over uw",
-            "p1":"De kracht van bitcoin is dat het volledig gedecentraliseerd is, en geen enkele regering of onderneming betalingen kan blokkeren of rekeningen kan sluiten."
+            "p1":"De kracht van bitcoin is dat het volledig gedecentraliseerd is, en geen enkele regering of onderneming betalingen kan blokkeren of rekeningen kan sluiten.",
+            "read":"Lees",
+            "how_it_works":"hoe het werkt"
          },
          "slides":{
-            "mobile_support":"Mobiele Ondersteuning",
+            "mobile_support":"Ondersteuning voor mobiele apparaten",
             "charts_analytics":"Grafieken & Analyses",
             "payment_notifications_p1":"Ontvang meldingen wanneer een betaling wordt verzonden of ontvangen vanaf uw Bitcoin portemonnee. De gemiddelde vertraging voor de betalingsmeldingen is minder dan 50ms. Als u een betaling ontvangt terwijl u ingelogd bent in Mijn Portemonnee, dan wordt een geluid afgespeeld en zal de interface onmiddellijk bijwerken zonder de pagina te herladen.",
             "payment_notifications":"Betalingsmeldingen",
@@ -560,8 +567,8 @@
             "one_click_backups_p1":"We doen er alles aan om uw portemonnee veilig te back-uppen. Er is echter geen vervanging voor het hebben van een back-up op uw eigen PC. Met een druk op de knop kunt u uw versleutelde portemonnee naar u gemaild krijgen, opgeslagen in uw Dropbox account of lokaal opgeslagen. Dan heeft u nog steeds toegang tot uw geld, zelfs als Blockchain.info gegevens verliest of offline gaat."
          },
          "deposit":{
-            "title":"Directe Stortingen",
-            "p1":"Stort Bitcoins in enkele seconden rechtstreeks in uw Mijn Portemonnee account dankzij onze partners, via een bankoverschrijving, geldstorting en meer. Beschikbaar in de VS, het VK en honderden andere landen wereldwijd."
+            "title":"Direct Storten",
+            "p1":"Stort bitcoins rechtstreeks in uw Mijn Portemonnee account in enkele seconden dankzij onze partners, via een bankoverschrijving, geldstorting en meer. Beschikbaar in de VS, het VK en honderden andere landen wereldwijd."
          },
          "p2":"Wij zijn geen bank. Uw geld blijft volledig uw eigendom. We kunnen uw saldo en transacties niet zien, en geen betalingen namens u verrichten.",
          "confused":{
@@ -580,7 +587,7 @@
          "introduction_video":"Bitcoin Video Inleiding",
          "anonymous":{
             "p2":"Mijn portemonnee bevat ook een ingebouwde",
-            "p1":"Het enige wat we nodig hebben voor een account is een wachtwoord, er wordt geen andere persoonlijk identificeerbare informatie gevraagd. We kunnen niet uw bitcoin addresses zien, uw transacties bekijken of uw saldo controleren.",
+            "p1":"Het enige wat we nodig hebben voor een account is een wachtwoord. Er wordt geen andere persoonlijk identificerende informatie gevraagd. We kunnen niet uw Bitcoin addressen zien, uw transacties bekijken of uw saldo controleren.",
             "mixing_service":"mengservice"
          },
          "merchants":{
@@ -590,7 +597,7 @@
          },
          "meta_description":"Mijn portemonnee is een gratis online Bitcoin portemonnee waarmee u wereldwijd gratis betalingen kunt verwerken. Wij maken het betalen met Bitcoins gemakkelijk en veilig.",
          "easy":{
-            "p2":"of online bankieren. Na het inloggen kunt u uw Saldo en een lijst van uw recente transacties zien",
+            "p2":"of online bankieren. Na het inloggen kunt u uw saldo en een lijst van uw recente transacties zien",
             "p1":"Mijn Portemonnee gebruiken is niet anders dan het gebruik van"
          },
          "successfully_transacted":"succesvol afgehandeld.",
@@ -611,7 +618,9 @@
             "payment_notifications":"SMS & E-mail Betalingsmeldingen",
             "client_side_encryption":"Veilige Client-side Versleuteling",
             "p1":"De meest geavanceerde online Bitcoin portemonnee die er is.",
-            "live_update":"Live Geupdate Interface"
+            "live_update":"Live Geupdate Interface",
+            "import_export":"Importeren \/ Exporteren van private keys",
+            "backups":"Mogelijkheid om uw eigen back-ups te maken"
          }
       },
       "maintenance":{
@@ -622,14 +631,14 @@
       },
       "donation_button":{
          "title":"Maak Donatie Knop",
-         "p2":"Voeg de volgende HTML-code in op de plaats waar u wilt dat de knop moet worden weergegeven"
+         "p2":"Voeg de volgende HTML-code in waar u wilt dat de knop wordt weergegeven"
       },
       "emails":{
          "authorize_login":{
             "title":"Machtigen log-in poging",
-            "p3":"Als deze login poging niet door u gemaakt was, kan deze e-mail veilig worden genegeerd. Het betekent dat iemand uw portemonnee login pagina bezocht heeft met uw alias vanuit een niet-herkende browser. De login-poging werd geblokkeerd, het betekent niet dat je portemonnee of wachtwoord is gestolen, maar als het verzoek niet door u werd gedaan raden wij u aan uw portemonnee alias wijzigen.",
+            "p3":"Als deze inlogpoging niet door u gemaakt was, kan deze e-mail veilig worden genegeerd. Het betekent dat iemand uw portemonnee login pagina bezocht heeft met uw alias vanuit een niet-herkende browser. De login-poging werd geblokkeerd. Het betekent niet dat je portemonnee of wachtwoord is gestolen, maar als het verzoek niet door u werd gedaan raden wij u aan uw portemonnee alias te wijzigen.",
             "p2":"Klik als de bovenstaande gegevens juist zijn op de volgende link om de aanvraag goed te keuren:",
-            "p1":"Er is een poging gedaan om in te loggen op uw blockchain.info portemonnee van een onbekende browser. Controleer alstublieft of de volgende gegevens correct zijn:",
+            "p1":"Er is een poging gedaan om in te loggen op uw Blockchain.info portemonnee vanaf een onbekende browser. Controleer alstublieft of de volgende gegevens correct zijn:",
             "header":"Machtigen log-in poging"
          },
          "tx":{
@@ -638,7 +647,7 @@
          "two_factor_reset_request":{
             "p4":"Het is mogelijk dat een kwaadwillig iemand probeert om toegang te krijgen tot uw Bitcoin portemonnee. Gelieve niet te reageren op dit verzoek.",
             "p3":"Als u dit verzoek niet gemaakt heeft moet u de URL niet openen:",
-            "p1":"Een verzoek is gedaan om Dubbele authenticatie te verwijderen uit uw Mijn Portemonnee account:",
+            "p1":"Een verzoek is gedaan om dubbele authenticatie te verwijderen uit uw Mijn Portemonnee account:",
             "header":"Dubbele Authenticatie Reset Aanvraag"
          },
          "tip_reversible":"Deze betaling kan ongedaan worden gemaakt door de afzender totdat hij geclaimd wordt.",
@@ -651,7 +660,7 @@
             "p1":"Er is een poging gedaan om op uw Mijn portemonnee account in te loggen door IP-adres {0}. Voer de bevestigingscode in om u aan te melden. Als u het niet was die deze login poging gedaan heeft kunt u deze e-mail negeren."
          },
          "wallet_backup":{
-            "p1":"Aan deze e-mail is een AES gecodeerd portemonnee back-up toegevoegd die alles bevat wat u nodig hebt om uw Bitcoin Portemonnee te herstellen. U kunt het gebruiken om de portemonnee te herstellen op elk moment op {0} of met behulp van de 3rd-party {1} Desktop-client."
+            "p1":"Aan deze e-mail is een AES gecodeerd portemonnee back-up toegevoegd die alles bevat wat u nodig hebt om uw Bitcoin portemonnee te herstellen. U kunt het gebruiken om de portemonnee te herstellen op elk moment op {0} of met behulp van de 3rd-party {1} desktop client."
          },
          "welcome":{
             "notifications_enabled":"Notificaties zijn ingeschakeld",
@@ -661,8 +670,8 @@
             "header":"Welkom bij Mijn Portemonnee"
          },
          "account_locked":{
-            "p2":"Als deze login pogingen niet door u gemaakt zijn is het raadzaam dat u uw wachtwoord wijzigt zodra de rekening weer beschikbaar is. Als u heel bezorgd bent neem dan contact met ons op, dan zullen wij de vergrendeling langer actief laten.",
-            "p1":"Er zijn een aantal mislukte pogingen gedaan om in te loggen op uw Mijn Portemonnee account. Voor uw veiligheid zijn nieuwe login pogingen uitgeschakeld tot {0}"
+            "p2":"Als deze inlogpogingen niet door u gemaakt zijn is het raadzaam dat u uw wachtwoord wijzigt zodra de rekening weer beschikbaar is. Als u heel bezorgd bent neem dan contact met ons op, dan zullen wij de vergrendeling langer actief laten.",
+            "p1":"Er zijn een aantal mislukte pogingen gedaan om in te loggen op uw Mijn Portemonnee account. Voor uw veiligheid zijn nieuwe inlogpogingen uitgeschakeld tot {0}"
          }
       },
       "pools":{
@@ -671,9 +680,9 @@
          "meta_description":"Een cirkeldiagram met de hashsnelheid verdeling tussen de grote bitcoin mining pools",
          "count":"Aantal",
          "relayed_by":"Doorgestuurd door",
-         "p1":"De onderstaande grafiek toont het marktaandeel van de meest populaire bitcoin mijnpools. Het kan alleen worden gebruikt als ruwe schatting en het is om verschillende redenen niet 100% accuraat.",
+         "p1":"De onderstaande grafiek toont het marktaandeel van de meest populaire bitcoin mijnpools. Het kan alleen worden gebruikt als ruwe schatting en het is om verschillende redenen niet 100% exact.",
          "header":"Hashsnelheid Distributie",
-         "warning":"Een groot aandeel Onbekende blokken betekent niet dat er een aanval op het netwerk is, maar gewoon dat we er niet in zijn geslaagd om de oorsprong te bepalen."
+         "warning":"Een groot aandeel onbekende blokken betekent niet dat er een aanval op het netwerk is, maar gewoon dat we er niet in zijn geslaagd om de oorsprong te bepalen."
       },
       "wallet_new":{
          "disclaimer":"Voorwaarden",
@@ -711,7 +720,7 @@
          "wallet_title":"Bitcoin Portemonnee"
       },
       "strange_transactions":{
-         "sub_header":"Transacties met Eindpunten van waaruit we niet in staat waren om een \u200B\u200BBitcoinadres te decoderen.",
+         "sub_header":"Transacties met eindpunten van waaruit we niet in staat waren om een \u200B\u200BBitcoinadres te decoderen.",
          "meta_description":"Een lijst van bitcoin met niet-standaard-eindpunten"
       },
       "notifications":{
@@ -728,37 +737,40 @@
          "malformed_url":"Er is geprobeerd een e-mailalert te sturen naar een misvormde URL. Notificaties zijn uitgeschakeld."
       },
       "ip_log":{
-         "last_connected":"Laatst verbonden",
-         "sub_header":"Lijst van Bitcoin nodes waarmee blockchain.info verbonden is geweest in het verleden."
+         "last_connected":"Laatst Verbonden",
+         "sub_header":"Lijst van Bitcoin knooppunten waarmee Blockchain.info verbonden is geweest in het verleden.",
+         "previous":"Vorige"
       },
       "home":{
          "other_links":{
             "most_popular":"Meest Populaire Adressen",
-            "nodes2":"Een logboek van alle bitcoin nodes waar blockchain.info op is aangesloten ",
-            "globe2":"WebGL globe die de bitcoin nodes laat zien (Chrome of Safari vereist)",
+            "nodes2":"Een logboek van alle bitcoin knooppunten waar blockchain.info op is aangesloten ",
+            "globe2":"WebGL globe die de bitcoin knooppunten laat zien (Chrome of Safari vereist)",
             "double_spends2":"Dubbele uitgaves gedetecteerd in de laatste 500.000 transacties",
             "strange2":"Transacties waarbij we niet in staat waren om het eindpunt-adres te decoderen",
             "double_spends":"Dubbele Uitgaves",
             "orphaned2":"Geldige blokken die geen deel uitmaken van de bitcoin hoofdblokketen",
-            "hub_nodes2":"Een lijst van de meest verbonden bitcoin super nodes",
+            "hub_nodes2":"Een lijst van de meest verbonden bitcoin super knooppunten",
             "pools":"Mijnpool Statistieken",
             "pools2":"Cirkeldiagram dat het marktaandeel toont van de top bitcoin mijnpools",
             "orphaned":"Wees Blokken",
             "strange":"Vreemde Transacties",
             "address_tags2":"Label uw publieke bitcoin adressen.",
             "notifications":"Betaling Notificaties",
-            "nodes":"Bitcoin Nodes Lijst",
+            "nodes":"Bitcoin Knooppunten Lijst",
             "rejected":"Afgewezen Inventaris",
             "notifications2":"Ontvang gratis e-mail notificaties wanneer er activiteit is op uw bitcoin adressen",
             "most_popular2":"Adressen die de meeste betalingen hebben ontvangen",
             "unconfirmed2":"Transacties die wachten om opgenomen te worden in een blok",
-            "wallet2":"Beheer uw geld met de meest geavanceerde web portemonnee die Bitcoin heeft."
+            "wallet2":"Beheer uw geld met de meest geavanceerde web portemonnee die Bitcoin heeft.",
+            "wallet":"Mijn Portemonnee"
          },
          "sub_header":"Meest recent gemijnde blokken in de bitcoin blokketen",
          "title":"Bitcoin blokexplorer - Blockchain.info",
          "search_explain":"U kunt hieronder een blokhoogte, adres, blokhash, transactiehash, hash160, of IPv4-adres invoeren",
          "meta_description":"Bitcoin Blokexplorer & Valuta Statistieken. Bekijk gedetailleerde informatie over alle Bitcointransacties en blokken.",
          "table_headers":{
+            "sent":"Totaal Verzonden"
             
          },
          "about":{
@@ -780,16 +792,16 @@
          "you_received":"U heeft ontvangen"
       },
       "orphaned_blocks":{
-         "timestamp":"tiemstamp",
+         "timestamp":"Tijdstip",
          "title":"Weesblokken - Blockchain.info",
          "meta_description":"Weesblokken zijn geldige blokken die geen deel uitmaken van de Bitcoin hoofdblokketen.",
-         "p1":"Vrijstaande of Weesblokken zijn geldig blokken die geen deel uitmaken van de hoofdblokketen. Zij kunnen van nature ontstaan wanneer twee mijnwerkers blokken vinden op exact hetzelfde tijdstip of ze kunnen worden veroorzaakt door een aanvaller met veel hashkracht die probeert het netwerk aan te vallen.",
+         "p1":"Vrijstaande of Weesblokken zijn geldig blokken die geen deel uitmaken van de hoofdblokketen. Zij kunnen vanzelf ontstaan wanneer twee mijnwerkers blokken vinden op exact hetzelfde tijdstip of ze kunnen worden veroorzaakt door een aanvaller met veel hashkracht die probeert het netwerk aan te vallen.",
          "header":"Weesblokken"
       },
       "api_index":{
          "data_api_description":"Query JSON data over blokken en transacties. Bijna alle gegevens die u ziet op deze website zijn beschikbaar in JSON formaat.",
          "request_limits_p1":"Voor een API code om de limieten te omzeilen, neem contact op via",
-         "create_wallet_description":"Programmatisch portemonnees voor uw gebruikers aanmaken met de mogelijkheid fondsen te laden en te verzilveren.",
+         "create_wallet_description":"Programmatisch portemonnees voor uw gebruikers aanmaken met de mogelijkheid geld te storten en te verzilveren.",
          "welcome_p2":"die door andere diensten aangeboden worden.",
          "welcome_p1":"Hier vindt u alles wat u nodig hebt om te beginnen met programmeren voor Bitcoin. U kunt gebruik maken van Blockchain.info's eigen API of",
          "requests_in_5_minutes":"Verzoeken per 5 minuten:",
@@ -798,13 +810,14 @@
          "hard_limit":"Hard Limiet",
          "soft_limit":"Zacht Limit",
          "request_api_code":"Vraag Een API Code Aan",
-         "charts_and_statistics_description":"JSON bron die de gegevens van de tabellen en statistieken.",
-         "account_required":"Mijn portemonnee-account vereist",
+         "charts_and_statistics_description":"JSON feed die de gegevens van de grafieken en statistieken bevat.",
+         "account_required":"Mijn Portemonnee-account vereist",
          "complete_merchant_solution":"Complete oplossing voor winkeliers.",
          "blockchain_wallet_api_description":"API voor het verzenden en ontvangen van betalingen van een Blockchain portemonnee account",
          "third_party_apis":"API's van derde partijen",
          "up_time":"Uptime",
          "request_limits":"Verzoek Limieten",
+         "simple_query_api_description":"Eenvoudige plain text API voor het opvragen van gegevens uit de blokketen. Compatibel met",
          "view_documentation":"Laat documentatie zien",
          "send_description":"Eenvoudige JSON API te gebruiken om programmatisch Bitcoins te verzenden en te ontvangen van een Mijn Portemonnee account.",
          "websocket_description":"Low latency streaming socket kanaal voor het verstrekken van gegevens over nieuwe blokken en transacties. U kunt zich abonneren op kennisgeving over blokken, transacties of een adres en ontvangt JSON objecten die een transactie of nieuw blok beschrijven wanneer een gebeurtenis plaatsvindt.",
@@ -813,13 +826,14 @@
          "no_account_required":"Geen account vereist",
          "exchange_rates_data":"Valuta gegevens van de grote bitcoin beurzen.",
          "blockchain_data":"Gegevens over Transacties & Blokken",
-         "bitpay_description":"Blockchain raadt Bitpay aan - de wereldleider in Bitcoin Business Solutions. Bitpay biedt een complete kassa-oplossing om de bitcoins automatisch te om te zetten naar lokale valuta en voor de integratie met een groot aantal verschillende shopping cart softwarepaketten.",
+         "bitpay_description":"Blockchain raadt Bitpay aan - de wereldleider in zakelijke Bitcoin oplossingen. Bitpay biedt een complete betalings-oplossing aan om bitcoins automatisch om te zetten naar een lokale valuta en zorgt voor de integratie met een groot aantal verschillende e-commerce softwarepaketten.",
          "up_time_description":"Blockchain.info maakt gebruik van een high availability databank cluster en dedicated hardware voor maximale uptime en lage responstijden.",
          "json_rpc_description":"Blockchain.info is in staat om te functioneren als een bitcoind RPC-server voor handelaren om te communiceren met hun Mijn Portemonnee account.",
-         "requests_in_8_hours":"Verzoeken per 8 uur:"
+         "requests_in_8_hours":"Verzoeken per 8 uur:",
+         "receive_payments_description":"Een ongelooflijk eenvoudige methode voor websites om Bitcoin betalingen te ontvangen."
       },
       "stats":{
-         "meta_description":"Meer dan 100 verschillende bitcoin markt en netwerk statistieken. Aantal nodes, transactievolume, Mijn moeilijkheidsgraad en nog veel meer.",
+         "meta_description":"Meer dan 100 verschillende bitcoin markt en netwerk statistieken. Aantal knooppunten, transactievolume, moeilijkheidsgraad van mijnen en nog veel meer.",
          "notice1":"Het elektriciteitsverbruik is geschat op basis van een stroomverbruik van 650 Watt per gigahash en elektriciteitsprijs van 15 cent per kilowattuur. In werkelijkheid zullen mijnwerkers meer of juist minder efficiënt zijn.",
          "notice2":"Voor de schatting van de winstmarge worden de hardware kosten geschat op 1000 dollar per gigahash om de 2 jaar, en de bandbreedte op 1 dollar per gigahash per jaar.",
          "table":{
@@ -859,7 +873,7 @@
          "network_propagation":"Netwerk Propagatie",
          "transactions_sub_header":"Transacties in dit blok",
          "summary_table":{
-            "timestamp":"Timestamp",
+            "timestamp":"Tijdstip",
             "output_title":"Totale Output",
             "title":"Samenvatting",
             "block_reward":"Blokbeloning",
@@ -881,8 +895,8 @@
       },
       "webgl_globe":{
          "home":"Home",
-         "title":"Bitcoin nodes Web GL Globe - Blockchain.info",
-         "header":"Globale Bitcoin nodes",
+         "title":"Bitcoin knooppunten Web GL Globe - Blockchain.info",
+         "header":"Globale Bitcoin knooppunten",
          "miners":"Mijners"
       },
       "payment_request":{
@@ -942,7 +956,7 @@
          "disclaimer":"Elk gebruik van de term geld op deze website verwijst slechts naar virtuele valuta. Wij garanderen niet dat Bitcoins kunnen worden ingewisseld tegen de aankoopprijs."
       },
       "footer":{
-         "nodes_connected":"Verbonden Nodes",
+         "nodes_connected":"Verbonden Knooppunten",
          "enable":"Activeren",
          "disable":"Deactiveren",
          "not_connected":"Niet verbonden"
