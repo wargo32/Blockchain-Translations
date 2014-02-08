@@ -17,6 +17,10 @@
       "transaction":{
          "fee":"Kosten:",
          "double_spend":"Dubbele betaling!",
+         "no_inputs":"Geen Ingangen (nieuw gegenereerde bitcoins)",
+         "unspent":"Onbesteed",
+         "input_decode_error":"Kan ingangsadres niet decoderen",
+         "output_decode_error":"Kan uitgangsadres niet decoderen",
          "size":"Grootte:"
       },
       "deposit":{
