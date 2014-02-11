@@ -798,7 +798,8 @@
             "p2":"Op deze site kunt u navigeren door de bitcoin blokketen (een database met informatie over alle transacties). We beheren ook de grootste en veiligste portemonnee service voor Bitcoin.",
             "p1":"Bitcoin is een peer-to-peer valuta. Peer-to-peer betekent dat er geen centrale autoriteit is die nieuw geld uit kan geven of transacties kan volgen. Deze taken worden gezamenlijk beheerd door het netwerk."
          },
-         "search_placeholder":"Adres \/ Eerste bits \/ IP \/ SHA hash"
+         "search_placeholder":"Adres \/ Eerste bits \/ IP \/ SHA hash",
+         "header":"Home"
       },
       "redirect_page":{
          
