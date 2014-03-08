@@ -1233,7 +1233,7 @@
       "misc":{
          "unknown_exception":"Exceção Desconhecida",
          "disclaimer":"O uso do termo dinheiro nesse site refere-se somente a moedas virtuais. Nós não garantimos que seus bitcoins possam ser resgatados no mesmo preço no qual foram comprados.",
-         "support_desk":"Supporte"
+         "support_desk":"Suporte"
       },
       "footer":{
          "about_us":"Sobre o Site",
@@ -1369,7 +1369,7 @@
       },
       "address":{
          "invalid_hash_160":"Desculpe, hash 160 inválido",
-         "sub_header":"Endereços são identificadores que você pode usar para enivar bitcoins para outras pessoas.",
+         "sub_header":"Endereços são identificadores que você pode usar para enviar bitcoins para outras pessoas.",
          "table_summary":{
             "taint_analysis":"Análise de Defeito",
             "view_analysis":"Visualizar Análize",
