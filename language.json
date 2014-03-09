@@ -1863,6 +1863,8 @@
             "fee_less_than_recommended" : "The transaction fee is less than recommended.",
             "transaction_output_none_standard" : "This transaction has a none standard output.",
             "transaction_input_none_standard" : "This transaction has a none standard input.",
+            "transaction_non_canonical_push_data" : "This transaction has a none canonical push data op codes.",
+            "transaction_script_not_push_only" : "Script is not push only",
             "transaction_very_large" : "This transaction is very large.",
             "transaction_double_spend" : "This transaction is double spend.",
             "transaction_spends_unconfirmed" : "This transaction spends an input which is unconfirmed."
