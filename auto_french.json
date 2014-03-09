@@ -1147,11 +1147,11 @@
             "header":"Deux Demande de réinitialisation Factor Authentication"
          },
          "authorize_login":{
-            "title":"Autoriser vous identifier tentative",
+            "title":"Confirmation de la tentative de connexion",
             "p3":"Si cette tentative de connexion n&#39;a pas été faite par vous ce message peut être ignoré. Cela signifie que quelqu&#39;un a visité la page de connexion de portefeuille en utilisant votre pseudo à partir d&#39;un navigateur non reconnu. La tentative de connexion a été bloqué, cela ne signifie pas que votre portefeuille ou votre mot de passe est compromise, mais si la demande n&#39;a pas été faite par vous, nous vous recommandons de changer votre alias du portefeuille.",
             "p2":"Si les informations ci-dessus sont correctes cliquez sur le lien suivant pour approuver la demande:",
             "p1":"Une tentative d&#39;accéder à votre portefeuille blockchain.info a été faite à partir d&#39;un navigateur inconnu. Veuillez confirmer les informations suivantes sont correctes:",
-            "header":"Autoriser vous identifier tentative"
+            "header":"Confirmation de la tentative de connexion"
          },
          "tx_removed":{
             "title":"Bitcoin Transaction Failed",
