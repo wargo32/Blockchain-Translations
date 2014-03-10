@@ -86,7 +86,7 @@
          "_continue":"Kontynuuj",
          "full_instructions":"Pełne instrukcje",
          "depsit_with_cash_description":"Ponad 700 tysięcy depozytów gotówkowych na świecie.",
-         "sofort_instructions":"Płatność zostanie wykonana przy pomocy natychmiastowego przlewu bankowego.",
+         "sofort_instructions":"Płatność zostanie wykonana przy pomocy natychmiastowego przelewu bankowego.",
          "_package":"Paczka:",
          "anonymous_help":"Bitcoiny zostaną przesłane przez nasz anonimizer dla zwiększenia prywatności (opłata: 1.5%).",
          "back":"Powrót",
@@ -184,7 +184,7 @@
                
             },
             "sms_verified":"Zweryfikowano SMS'em",
-            "password_hints_description":" Jeśli zapomnisz hasło wskazówki mogą być przydatne żeby je przypomnieć. Jeśli jest podany adres e-mail powiązany z Twoim kontem, hasło może być wysłane. Jeśli nie ma podanego adresu e-mail wskazówki są dostępne dla każdego, kto zna identyfikator portfela."
+            "password_hints_description":" Jeśli zapomnisz hasła wskazówki mogą być przydatne żeby je przypomnieć. Jeśli jest podany adres e-mail powiązany z Twoim kontem, hasło może być wysłane. Jeśli nie ma podanego adresu e-mail wskazówki są dostępne dla każdego, kto zna identyfikator portfela."
          },
          "login":{
             "lost_identifier_p1":" Jeśli nie pamiętasz identyfikatora portfela najpierw sprawdź e-mail potwierdzający, który otrzymałeś podczas rejestracji. Nie możesz znaleźć e-maila? Kliknij przycisk poniżej, a prześlemy go ponownie."
@@ -278,7 +278,7 @@
          "sub_header":"Kim jesteśmy i czym się zajmujemy",
          "support":"Wsparcie:",
          "disclaimer":"Uwaga",
-         "security_p1":"Nasza polityka bezpieczeństwa oparta jest o przechowywanie tak możliwie małej ilości danych, tak by żadne naruszenie bezpieczeństwa serwisu nie mogło wpłynąć na jego użytkowników. My Wallet nie przechowywuje żadnych haseł ani danych identyfikacyjnych, a zawartość porfela jest zawsze przechowywana w zaszyfrowanej postaci. Blockchain.info działa na prywatnej, dedykowanej do tego celu infrastrukturze, do której dostęp mają jedynie administratorzy serwisu. Regularnie przeprowadzamy audyty bezpieczeństwa zarówno kodu oraz serwerów. Strona jest dostępna przy pomocy szyfrowanego protokołu https z certyfikatem zweryfikowanym przez GoDaddy.",
+         "security_p1":"Nasza polityka bezpieczeństwa oparta jest o przechowywanie tak możliwie małej ilości danych, tak by żadne naruszenie bezpieczeństwa serwisu nie mogło wpłynąć na jego użytkowników. Nasz Wallet nie przechowywuje żadnych haseł ani danych identyfikacyjnych, a zawartość porfela jest zawsze przechowywana w zaszyfrowanej postaci. Blockchain.info działa na prywatnej, dedykowanej do tego celu infrastrukturze, do której dostęp mają jedynie administratorzy serwisu. Regularnie przeprowadzamy audyty bezpieczeństwa zarówno kodu oraz serwerów. Strona jest dostępna przy pomocy szyfrowanego protokołu https z certyfikatem zweryfikowanym przez GoDaddy.",
          "availability_p1":"Staramy się utrzymać 99.5% czasu dostępności, jednak usługa prowadzaona jest na zasadach best-effort. Informujemy użytkowników drogą mailową o zaplanowanych przerwach technicznych.",
          "up_time":"Czas nieprzerwanej pracy",
          "privacy_policy":"Polityka Prywatności",
@@ -360,7 +360,7 @@
             "p1":"Otrzymujesz tego email ponieważ ktoś próbował odczytać podpowiedzi do Twoich haseł.",
             "second_hint":"Podpowiedź do drugiego hasła:",
             "main_hint":"Podpowiedź do głównego hasła:",
-            "header":"Podopwiedzi hasła My Wallet"
+            "header":"Podpowiedzi hasła My Wallet"
          },
          "confirmation_code":{
             "p1":"Wykryto wielokrotne nieudane próby logowania się do tego konta. Wprowadź kod potwierdzający by uzyskać dostęp do konta. Jeżeli to nie Ty wykonałeś próby logowania, możesz zignorować ten email."
