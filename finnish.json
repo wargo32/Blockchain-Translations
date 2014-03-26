@@ -969,18 +969,18 @@
                 "verify_email_reminder" : "Reminder: Verify your email."
             },
             "transactions" : {
-                "header" : "Transactions",
-                "sub_header" : "Summary of your recent transactions",
-                "compact" : "Compact",
-                "detailed" : "Detailed",
-                "view" : "View",
-                "filter" : "Filter",
-                "all" : "All",
-                "filter_unspendable" : "Unspendable (Default)",
-                "sent" : "Sent",
-                "received" : "Received",
+                "header" : "Tapahtumat",
+                "sub_header" : "Yhteenveto viimeisimmistä tapahtumistasi",
+                "compact" : "Kompakti",
+                "detailed" : "Yksityiskohtainen",
+                "view" : "Katso",
+                "filter" : "Suodata",
+                "all" : "Kaikki",
+                "filter_unspendable" : "Ei käytettävissä (Oletus)",
+                "sent" : "Lähetetty",
+                "received" : "Vastaanotettu",
                 "escrow" : "Escrow",
-                "no_transactions" : "Normally your bitcoin transactions would be listed here but you have not made any yet."
+                "no_transactions" : "Normaalisti bitcoin-tapahtumasi olisi listattu täällä, mutta et ole vielä tehnyt niitä vielä lainkaan."
             },
             "send_coins" : {
                 "transaction_types" : "Transaction Type",
