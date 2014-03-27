@@ -1506,8 +1506,8 @@
             "privacy_policy" : "Yksityisyyskäytäntömme",
             "disclaimer" : "Varoitus",
             "contact_us" : "Ota yhteyttä",
-            "name" : "Name:",
-            "email" : "Email:",
+            "name" : "Nimi:",
+            "email" : "Sähköposti:",
             "support" : "Tuki:",
             "blog" : "Blogi:",
             "blockchain_blog" : "Blockchain blogi",
@@ -1589,29 +1589,29 @@
             "two_factor_reset_title" : "Two Factor Authentication Reset"
         },
         "maintenance" : {
-            "title" : "Site Under Maintenance - Blockchain.info",
-            "header" : "We Will Be Back Shortly",
-            "p1" : "Blockchain.info is currently down for maintenance. For status updates please see {0}. Apologies for any inconvenience."
+            "title" : "Sivustoa huolletaan - Blockchain.info",
+            "header" : "Palaamme pian",
+            "p1" : "Blockchain.info on nyt huollossa. Tilapäivitykset löydät täältä: {0}. Pyydämme anteeksi kaikesta mahdollisesti aiheuttamastamme haitasta."
         },
         "error_page" : {
-            "title" : "Error {0} - Blockchain.info",
-            "header" : "Error {0}",
-            "error_404" : "Page not found, please check you typed the address correctly.",
-            "p1" : "If you believe this to be a mistake please contact {0}."
+            "title" : "Virhe {0} - Blockchain.info",
+            "header" : "Virhe {0}",
+            "error_404" : "Sivua ei löydy. Tarkista että kirjoitit osoitteen oikein.",
+            "p1" : "Jos luulet tämän olevan virhe, ota yhteyttä {0}."
         },
         "unconfirmed" : {
-            "title" : "{0} Unconfirmed Transactions",
-            "meta_description" : "A list of unconfirmed bitcoin transactions",
-            "header" : "{0} Unconfirmed Transactions",
-            "sub_header" : "Live updating list of new bitcoin transactions",
-            "summary" : "Summary",
-            "total_fees" : "Total Fees",
-            "total_size" : "Total Size",
-            "advanced" : "Advanced",
-            "status" : "Status:",
-            "disconnected" : "Disconnected",
-            "connected" : "Connected",
-            "new_transaction" : "New Transaction"
+            "title" : "{0} vahvistamatonta maksua",
+            "meta_description" : "Lista vahvistamattomista bitcoin-maksuista",
+            "header" : "{0} vahvistamatonta maksua",
+            "sub_header" : "Automaattisesti päivittyvä lista bitcoin-tapahtumista",
+            "summary" : "Yhteenveto",
+            "total_fees" : "Kulut yhteensä",
+            "total_size" : "Koko yhteensä",
+            "advanced" : "Kehittynyt",
+            "status" : "Tila:",
+            "disconnected" : "Ei yhdistetty",
+            "connected" : "Yhdistetty",
+            "new_transaction" : "Uusi tapahtuma"
         },
         "double_spends" : {
             "title" : "Bitcoin Double Spends - Blockchain.info",
