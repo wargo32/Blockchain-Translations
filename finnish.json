@@ -304,7 +304,7 @@
         "stats" : {
             "title" : "Bitcoin Tilastot - Blockchain.info",
             "header" : "Valuuttatilastot",
-            "meta_description" : "Yli 100 erilaista markkina- ja verkkotilastoa. Solmujen määrä, tapahtumien volyymi, louhimisen vaikeusaste ja paljon muuta.",
+            "meta_description" : "Yli 100 erilaista markkina- ja verkkotilastoa. Solmujen määrä, tapahtumien volyymi, louhimisen vaikeus ja paljon muuta.",
             "sub_header" : "Bitcoin-valuutan tilastot",
             "table" : {
                 "minutes" : "minuuttia",
@@ -326,7 +326,7 @@
                 "percent_of_transaction_volume" : "% tapahtumavolyymista",
                 "cost_per_transaction" : "Hinta/tapahtuma",
                 "hash_rate_electricity" : "Prosessointiteho ja sähkönkulutus",
-                "difficulty" : "Vaikeusaste",
+                "difficulty" : "Vaikeus",
                 "hash_rate" : "Hash Rate",
                 "electricity_consumption" : "Sähkönkulutus",
                 "electricity_cost" : "Sähkön hinta",
@@ -577,11 +577,11 @@
                     "transaction_fees" : "Tapahtumien kulut",
                     "height" : "Pituus",
                     "timestamp" : "Aikaleima",
-                    "main_chain" : "Main Chain", // Not translated
+                    "main_chain" : "Pääketju",
                     "orphaned" : "Orphaned", // Not translated
                     "received_time" : "Vastaanottoaika", // Not translated
                     "relayed_by" : "Välittäjä",
-                    "difficulty" : "Vaikeusaste",
+                    "difficulty" : "Vaikeus",
                     "bits" : "Bitit",
                     "size" : "Koko",
                     "version" : "Versio",
@@ -1590,7 +1590,7 @@
         },
         "maintenance" : {
             "title" : "Sivustoa huolletaan - Blockchain.info",
-            "header" : "Palaamme pian",
+            "header" : "Palaamme normaaliin toimintaan pian",
             "p1" : "Blockchain.info on nyt huollossa. Tilapäivitykset löydät täältä: {0}. Pyydämme anteeksi kaikesta mahdollisesti aiheuttamastamme haitasta."
         },
         "error_page" : {
@@ -1614,77 +1614,77 @@
             "new_transaction" : "Uusi tapahtuma"
         },
         "double_spends" : {
-            "title" : "Bitcoin Double Spends - Blockchain.info",
-            "header" : "Double Spends",
-            "sub_header" : "Double spends detected in the last 500,000 transactions (10 Minute Cache)",
-            "warning" : "Double spends on this page may be unintentional. In the event that a double spend is maliciously crafted being listed on this page is no indication that it was successful or any merchant or user lost money as a result.",
-            "orphaned" : "Orphaned",
-            "included_in_block" : "Included in block {0}"
+            "title" : "Bitcoin Tuplakulutukset - Blockchain.info",
+            "header" : "Tuplakulutukset",
+            "sub_header" : "Double spends detected in the last 500,000 transactions (10 Minute Cache)", // Not translated
+            "warning" : "Double spends on this page may be unintentional. In the event that a double spend is maliciously crafted being listed on this page is no indication that it was successful or any merchant or user lost money as a result.", // Not translated
+            "orphaned" : "Orpo",
+            "included_in_block" : "Sisältyy blokkiin {0}" // Not translated
         },
         "webgl_globe" : {
-            "title" : "Bitcoin Nodes Web GL Globe - Blockchain.info",
-            "online_now" : "Online Now",
+            "title" : "Bitcoin-solmut maailmankartalla - Blockchain.info",
+            "online_now" : "Paikalla nyt",
             "past_48_hours" : "Past 48 hours",
-            "stable_nodes" : "Most Stable Nodes",
-            "miners" : "Miners",
-            "header" : "Global Bitcoin Nodes",
-            "home" : "Home"
+            "stable_nodes" : "Vakaimmat solmut",
+            "miners" : "Louhijat",
+            "header" : "Maailmanlaajuiset Bitcoin-solmut",
+            "home" : "Koti"
         },
         "propagation" : {
-            "title" : "Bitcoin Network Propagation - Blockchain.info",
-            "disconnected" : "Disconnected",
-            "connected" : "Connected",
-            "header" : "Network Propagation",
+            "title" : "Bitcoin Network Propagation - Blockchain.info", // Not translated
+            "disconnected" : "Ei yhdistetty",
+            "connected" : "Yhdistetty",
+            "header" : "Network Propagation", // Not translated
             "sub_header" : "Shows the distribution of a transaction or block throughout the network",
-            "h3" : "Inventory Hash: {0}",
-            "node_list" : "Node List",
-            "node_list_sub" : "All nodes that have relayed this inventory item",
-            "summary" : "Summary",
-            "type" : "Type",
-            "first_seen" : "First Seen",
-            "last_seen" : "Last Seen",
-            "first_relayed" : "First Relayed",
+            "h3" : "Inventory Hash: {0}", // Not translated
+            "node_list" : "Lista solmuista",
+            "node_list_sub" : "All nodes that have relayed this inventory item", // Not translated
+            "summary" : "Yhteenveto",
+            "type" : "Tyyppi",
+            "first_seen" : "Ensimmäisen kerran nähty",
+            "last_seen" : "Viimeksi nähty",
+            "first_relayed" : "Ensimmäinen välitys",
             "probable_owner" : "Probable Owner",
-            "nodes_connected" : "Nodes Connected",
-            "total_relayed" : "Total Relayed",
-            "network_percent" : "Percent Of Network",
-            "mining_pools" : "Mining Pools"
+            "nodes_connected" : "Yhdistetyt solmut",
+            "total_relayed" : "Välitetty yhteensä",
+            "network_percent" : "Osuus verkosta",
+            "mining_pools" : "Kaivokset"
         },
         "ip_info" : {
-            "title" : "Transactions Relayed By {0} - Blockchain.info",
-            "meta_description" : "Bitcoin Transactions relayed by ip address {0}",
-            "header" : "Transactions Relayed By {0}",
-            "sub_header" : "Transactions that were relayed first by the ip {0}",
-            "next_page" : "Next Page"
+            "title" : "Tapahtumat välittäjänään {0} - Blockchain.info",
+            "meta_description" : "Bitcoin-tapahtumat, jotka {0} on välittänyt",
+            "header" : "Tapahtumat välitti {0}",
+            "sub_header" : "Tapahtumat ensimmäisenä välitti {0}",
+            "next_page" : "Seuraava sivu"
         },
         "largest_transactions" : {
-            "title" : "Largest Bitcoin Transactions - Blockchain.info",
-            "meta_description" : "A list of the largest recent bitcoin transactions",
-            "header" : "Largest Recent Transactions"
+            "title" : "Suurimmat bitcoin-tapahtumat - Blockchain.info",
+            "meta_description" : "Lista suurimmista viimeaikoina tehdyistä bitcoin-maksuista",
+            "header" : "Suurimmat tapahtumat viimeaikoina"
         },
         "orphaned_blocks" : {
-            "title" : "Orphaned Blocks - Blockchain.info",
-            "meta_description" : "Orphaned blocks are valid blocks not part of the main bitcoin block chain.",
-            "header" : "Orphaned Blocks",
-            "p1" : "Detached or Orphaned blocks are valid blocks which are not part of the main chain. They can occur naturally when two miners produce blocks at similar times or they can be caused by an attacker (with enough hashing power) attempting to reverse transactions.",
-            "previous_page" : "Previous Page",
-            "next_page" : "Next Page",
-            "timestamp" : "Timestamp",
-            "btc_sent" : "BTC Sent",
-            "number_of_transactions" : "Number Of Transactions",
-            "relayed_by" : "Relayed By"
+            "title" : "Orvot blokit - Blockchain.info",
+            "meta_description" : "Orvot blokit ovat täysin kelvollisia blokkeja, jotka eivät kuulu pääketjuun.",
+            "header" : "Orvot blokit",
+            "p1" : "Detached or Orphaned blocks are valid blocks which are not part of the main chain. They can occur naturally when two miners produce blocks at similar times or they can be caused by an attacker (with enough hashing power) attempting to reverse transactions.", // Not translated
+            "previous_page" : "Edellinen sivu",
+            "next_page" : "Seuraava sivu",
+            "timestamp" : "Aikaleima",
+            "btc_sent" : "BTC Lähetetty",
+            "number_of_transactions" : "Siirtojen määrä",
+            "relayed_by" : "Välittäjä"
         },
         "payment_request" : {
-            "title" : "Payment Request {0}",
-            "please_send" : "Please send payment to bitcoin address",
-            "pay_me" : "Pay me with bitcoin",
-            "p1" : "Use this form to request someone sends you bitcoins or simply to show people you have a bitcoin address.",
-            "amount" : "Amount:"
+            "title" : "Maksupyyntö {0}",
+            "please_send" : "Ole hyvä ja tee maksu osoitteeseen",
+            "pay_me" : "Maksa bitcoineilla",
+            "p1" : "Käytä tätä lomaketta pyytääksesi jotakuta siirtämään sinulle bitcoineija tai yksinkertaisesti näyttämään että omistat bitcoin-osoitteen.",
+            "amount" : "Summa:"
         },
         "donation_button" : {
-            "title" : "Create Donation Button",
-            "p1" : "Insert the following code into the head section of the page.",
-            "p2" : "Insert the following html code at the position where you would like the button to appear"
+            "title" : "Luo maksunappi",
+            "p1" : "Aseta seuraava koodi sivun &lt;head&gt; -osion sisään",
+            "p2" : "Aseta seuraava koodi sinne missä haluat maksunapin näkyvän"
         },
         "pools" : {
             "title" : "Bitcoin Hashrate Distribution - Blockchain.info",
