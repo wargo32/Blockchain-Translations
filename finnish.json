@@ -1466,19 +1466,18 @@
             "request_api_code" : "Request An API Code"
         },
         "ip_log" : {
-            "title" : "Bitcoin Nodes Log",
-            "meta_description" : "A list of all ip addresses that have connected to the bitcoin network.",
-            "total_unique" : "Total Unique Ip Addresses:",
-            "header" : "Bitcoin Nodes Log",
-            "sub_header" : "List of bitcoin nodes blockchain.info has connected to in the past.",
-            "search_placeholder" : "Ip Address or Hostname",
-            "search" : "Search",
-            "port" : "Port",
-            "last_connected" : "Last Connected",
-            "location" : "Location",
-            "hostname" : "Hostname",
-            "previous" : "Previous",
-            "next" : "Next"
+            "title" : "Bitcoin-solmujen loki",
+            "meta_description" : "Lista kaikista IP-osoitteista, jotka ovat yhdistäneet bitcoin-verkkoon.",
+            "total_unique" : "Uniikkeja IP:itä yhteensä:",
+            "header" : "Bitcoin-solmujen loki",
+            "sub_header" : "Lista kaikista bitcoin-solmuista, joihin blockchain.info on yhdistänyt viime aikoina.",
+            "search_placeholder" : "IP-osoite tai isäntänimi",
+            "search" : "Haku",
+            "port" : "Portti","Viimeksi yhdistetty",
+            "location" : "Sijainti",
+            "hostname" : "Isäntänimi",
+            "previous" : "Edellinen",
+            "next" : "Seuraava"
         },
         "relayed_by" : {
             "title" : "Ips Associated With Address",
