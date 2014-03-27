@@ -1761,71 +1761,71 @@
             "cluster_by_address" : "Cluster By Address"
         },
         "emails" : {
-            "your_wallet_identifier" : "Your wallet identifier is:",
-            "top_tip" : "Top Tip",
-            "tip_backup" : "Backup your bitcoin wallet using dropbox. It's free, easy to use and secure.",
-            "tip_reversible" : "This payment can be reversed by the sender until claimed.",
+            "your_wallet_identifier" : "Lompakkosi tunniste:",
+            "top_tip" : "Huippuvihje:",
+            "tip_backup" : "Varmuuskopioi lompakkosi käyttämällä Dropboxia. Se on ilmainen, helppo käyttää ja turvallinen.",
+            "tip_reversible" : "Maksun lähettäjä voi peruuttaa maksun siihen asti kunnes summa on lunastettu.",
             "account_locked" : {
-                "header" : "Account Locked",
-                "p1" : "A number of failed attempts have been made to login to to your My Wallet account. For your protection the new login attempts have been disabled until {0}",
-                "p2" : "If these login attempts were not made by you it is recommended you change your password as soon as the account is available again. If you are particularly concerned please contact us and we will extend the lock."
+                "header" : "Tili lukittu",
+                "p1" : "My Wallet -tilillesi on yritetty kirjautua useita kertoja väärällä salasanalla. Suojataksemme sinua, olemme estäneet uudet kirjautumisyritykset {0} saakka.",
+                "p2" : "Jos nämä kirjautumisyritykset eivät ole sinun tekemiäsi, on suositeltavaa vaihtaa tilisi salasana niin pian kun tilisi on taas käytettävissä. Jos olet erityisen huolestunut, ota meihin yhteyttä ja lukitsemme tilisi pidemmäksi aikaa."
             },
             "confirmation_code" : {
-                "header" : "Confirmation Required",
-                "p1" : "An attempt has been made to login to your My wallet account from ip address {0}. Enter the confirmation code below to access your account. If it was not you who made this login attempt you can ignore this email."
+                "header" : "Vahvistaminen vaaditaan",
+                "p1" : "Tilillesi tahdotaan kirjautua IP-osoitteesta {0}. Anna vahvistuskoodi alle käyttääksesi tiliäsi. Jos sinä et tehnyt tätä kirjautumispyyntöä, voit jättää tämän viestin huomiotta."
             },
             "authorize_login" : {
-                "title" : "Authorize log-in attempt",
-                "header" : "Authorize log-in attempt",
-                "p1" : "An attempt to login to your blockchain.info wallet was made from an unknown browser. Please confirm the following details are correct:",
-                "p2" : "If the above details are correct click the following link to approve the request:",
-                "p3" : "If this login attempt was not made by you this email can be safely ignored. It means someone visited your wallet login page using your alias from an unrecognized browser. The login attempt was blocked, it does not mean your wallet or password is compromised, but if the request was not made by you we recommend you change your wallet alias."
+                "title" : "Vahvista kirjautumisyritys",
+                "header" : "Vahvista kirjautumisyritys",
+                "p1" : "Blockchain.info -lompakkoosi on yritetty kirjautua tuntemattomasta selaimesta. Ole hyvä ja vahvista että:",
+                "p2" : "Jos edellä mainitut kohdat ovat oikein, klikkaa seuraavaa linkkiä hyväksyäksesi kirjautumispyynnön:",
+                "p3" : "Jos sinä et tehnyt tätä kirjautumispyyntöä, tämä viesti voidaan turvallisesti jättää huomiotta. Tämä tarkoittaa että joku on vieraillut tuntemattomalle selaimella kirjautumissivullasi käyttämällä määrittämääsi aliasta. Vaikka kirjautuminen estettiin, se ei tarkoita että tilisi tai salasanasi olisi uhattuna, mutta mikäli sinä et tehnyt tätä pyyntöä, suosittelemme että vaihdat lompakkosi aliaksen."
             },
             "login_blocked" : {
-                "title" : "Login attempt blocked",
-                "header" : "Login attempt blocked",
-                "p1" : "An attempt to access your My Wallet account has been blocked. For your own security please review the details below:",
-                "p2" : "If this login attempt was made by you this email can be safely ignored. However if this login attempt was not made by you somebody may be trying to access your wallet, in this case access was blocked."
+                "title" : "Kirjautumisyritys estetty",
+                "header" : "Kirjautumisyritys estetty",
+                "p1" : "Kirjautuminen My Wallet -tiliisi on estetty. Oman turvallisuutesi vuoksi tarkista, että:",
+                "p2" : "Jos sinä et tehnyt tätä kirjautumispyyntöä, tämä viesti voidaan turvallisesti jättää huomiotta. Jos tämä kirjautumispyyntö ei ollut sinun tekemäsi, joku on voinut yrittää murtautua tilillesi - siksi estimme kirjautumisen."
             },
             "wallet_backup" : {
-                "header" : "Wallet Backup",
-                "p1" : "Attached to this email is an AES encrypted wallet backup which contains everything you need to restore your bitcoin balance. You can use it to restore the wallet at anytime at {0} or using the 3rd party {1} Desktop client. "
+                "header" : "Lompakon varmuuskopio",
+                "p1" : "Tämän viestin liitteenä on AES-kryptattu varmuuskopio lompakosta, joka sisältää kaiken tarvittavan bitcoin-lompakkosi palauttamiseen. Voit käyttää sitä bitcoin-lompakkosi palauttamiseen koska tahansa osoitteessa {0} tai voit käyttää sillä toista ohjelmaa {1}. "
             },
             "two_factor_reset_request" : {
-                "header" : "Two Factor Authentication Reset Request",
-                "p1" : "A request has been made to remove two-factor authentication from your My Wallet account:",
-                "p2" : "If this request was made by you please open the following URL to approve this request:",
-                "p3" : "If this request was not made by you please open the following URL to decline this request:",
-                "p4" : "It is possible someone may be trying to maliciously access to your bitcoin wallet. Please do not ignore this request."
+                "header" : "2-vaiheisen tunnistautumisen palauttaminen",
+                "p1" : "Meitä on pyydetty poistamaan 2-vaiheinen tunnistautuminen My Wallet -tililtäsi.",
+                "p2" : "Jos tämä pyyntö on sinun tekemäsi, avaa seuraava linkki pyynnön hyväksymiseen:",
+                "p3" : "Jos tämä pyyntö ei ole sinun tekemäsi, avaa seuraava linkki pyynnön hylkäämiseksi:",
+                "p4" : "On mahdollista, että joku yrittää murtautua bitcoin-lompakkoosi. Ole hyvä äläkä jätä tätä viestiä huomiotta."
             },
             "password_hints" : {
-                "header" : "My Wallet Password Hints",
-                "p1" : "You are receiving this email because a request was made to view your wallet password hints.",
-                "main_hint" : "Main Password Hint:",
-                "second_hint" : "Second Password Hint:"
+                "header" : "My Wallet -salasanavihjeet",
+                "p1" : "Saat tämän viestin, koska joku pyysi lähettämään nämä sinulle.",
+                "main_hint" : "Ensimmäinen salasanavihje:",
+                "second_hint" : "Toinen salasanavihej:"
             },
             "tx" : {
-                "header_sent" : "Payment Sent Notification",
-                "header_received" : "Payment Received Notification",
-                "sent_p1" : "A Payment has been sent from your bitcoin wallet.",
-                "received_p1" : "A Payment has been received into your bitcoin wallet."
+                "header_sent" : "Ilmoitus maksun lähettämisestä",
+                "header_received" : "Ilmoitus maksun saapumisesta",
+                "sent_p1" : "Bitcoin-lompakostasi on tehty maksu.",
+                "received_p1" : "Bitcoin-lompakkosi on vastaanottanut maksun."
             },
             "tx_removed" : {
-                "title" : "Bitcoin Transaction Failed",
-                "header" : "Transaction Confirmation Failed",
-                "p1" : "A transaction made through Blockchain.info has been removed from our database because it was taking a long time to be included in a block.",
-                "p2" : "Any funds have been returned to your wallet and you can now spend the coins again. Please consider including a larger fee in future transactions."
+                "title" : "Bitcoin-tapahtuma epäonnistui",
+                "header" : "Tapahtuman vahvistaminen epäonnistui",
+                "p1" : "Bitcoin-tapahtuma, joka tehtiin Blockchain.info -palvelun kautta on poistettu tietokannastamme, koska sen vahvistaminen vei liian pitkän ajan.",
+                "p2" : "Kaikki varasi on palautettu lompakkoosi ja voit käyttää bitcoinisi nyt uudestaan. Harkitse suuremman kulun sisällyttämistä tuleviin maksuihisi."
             },
             "welcome" : {
-                "header" : "Welcome To My Wallet",
-                "p1" : "This email contains important information about your new bitcoin wallet. Be sure to keep this safe and stored separately from your password.",
-                "login_link" : "Login Link:",
-                "verification_link" : "Verification Link:",
-                "notifications" : "Notifications:",
+                "header" : "Tervetuloa My Wallet -lompakkoon",
+                "p1" : "Tämä sähköpostiviesti sisältää tärkeää tietoa uudesta bitcoin-lompakostasi. Pidä huolta, että tämä viesti pysyy turvassa ja erillään salasanastasi.",
+                "login_link" : "Kirjautumislinkki:",
+                "verification_link" : "Vahvistuslinkki:",
+                "notifications" : "Ilmoitukset:",
                 "alias" : "Alias:",
-                "confirmation_code" : "Confirmation Code:",
-                "notifications_enabled" : "Notifications Are Enabled",
-                "notifications_disabled" : "Notifications Are Disabled"
+                "confirmation_code" : "Vahvistuskoodi:",
+                "notifications_enabled" : "Ilmoitukset ovat käytössä",
+                "notifications_disabled" : "Ilmoitukset ei ole käytössä"
             }
         },
         "deposit" : {
