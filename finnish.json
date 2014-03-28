@@ -86,7 +86,6 @@
             "terms": "Käyttöehdot",
             "part_of": "Osa"
         },
-		// Charts-part is only partially translated!!
         "charts": {
             "show_data_points": "Näytä datapisteet",
             "market_price2": "Kaavio joka näyttää USD:n hinnan Mt.gox-pörssistä",
@@ -703,7 +702,6 @@
                     "debugging" : "Debuggaus",
                     "display" : "Näyttö"
                 },
-				// Not translated
                 "pbkdf2_iterations" : {
                     "header" : "PBKDF2-iteraatiot",
                     "p1" : "PBKDF2 is a function which stretches your password increasing the effort required to bruteforce it. A higher number of iterations is better however you may notice a slow down of your browser.",
@@ -1479,7 +1477,6 @@
             "previous" : "Edellinen",
             "next" : "Seuraava"
         },
-		// Not translated
         "relayed_by" : {
             "title" : "Ips Associated With Address",
             "associated_ips" : "Associated IP addresses",
