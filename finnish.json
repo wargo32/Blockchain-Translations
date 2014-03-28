@@ -429,27 +429,27 @@
         },
         "address" : {
             "title" : "Bitcoin-osoite {0}",
-            "meta_description" : "Transactions sent and received from bitcoin address {0}.",
-            "bitcoin_address" : "Bitcoin Address",
-            "sub_header" : "Addresses are identifiers which you use to send bitcoins to another person.",
-            "double_spend_warning" : "Warning! this bitcoin address contains transactions which may be double spends. You should be extremely careful when trusting any transactions to or from this address.",
-            "address_possibly_inaccurate" : "Warning! The results shown may be inaccurate. This is usually becuase an address contains a very large number of unconfirmed transactions.",
+            "meta_description" : "Osoitteen {0} lähteneet ja saapuneet tapahtumat",
+            "bitcoin_address" : "Bitcoin-osoite",
+            "sub_header" : "Osoitteet ovat tunnisteita, joita käytetään bitcoinien lähettämiseen toiselle.",
+            "double_spend_warning" : "Varoitus! Tämä bitcoin-osoite sisältää tapahtumia, jotka voivat olla tuplakulutuksia. Ole erittäin varovainen luottaessasi tähän osoitteeseen sekä sen tapahtumiin.",
+            "address_possibly_inaccurate" : "Varoitus! Tulokset voivat olla epätarkkoja. Tämä johtuu usein siitä, että osoitteella on monia vahvistamattomia maksuja.",
             "table_summary" : {
-                "title" : "Summary",
-                "address" : "Address",
-                "short_link" : "Short Link",
-                "tools" : "Tools",
-                "related_tags" : "Related Tags",
-                "taint_analysis" : "Taint Analysis",
-                "view_analysis" : "View Analysis",
-                "unspent_outputs" : "Unspent Outputs"
+                "title" : "Yhteenveto",
+                "address" : "Osoite",
+                "short_link" : "Lyhytosoite",
+                "tools" : "Työkalut",
+                "related_tags" : "Liittyvät tagit",
+                "taint_analysis" : "Taint Analysis", // Not translated
+                "view_analysis" : "Näytä analytiikka",
+                "unspent_outputs" : "Unspent Outputs" // Not translated
            },
            "table_transactions" : {
-                "title" : "Transactions",
-                "number_of_transactions" : "No. Transactions",
-                "unspent_inputs" : "Unspent Inputs",
-                "total_received" : "Total Received",
-                "final_balance" : "Final Balance"
+                "title" : "Tapahtumat",
+                "number_of_transactions" : "Tapahtumien määrä",
+                "unspent_inputs" : "Käyttämättömät tulot", // Not translated
+                "total_received" : "Yhteensä vastaanotettu", // Not translated
+                "final_balance" : "Lopullinen saldo"
            },
            "deposit_with_cash" : "Käteispano",
            "request_payment" : "Pyydä maksua",
