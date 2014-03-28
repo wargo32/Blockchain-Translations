@@ -32,7 +32,7 @@
                 "more_about_safety": "Lue lisää kuinka varmistamme tietoturvan sinulle",
                 "fully_featured": "Ilmainen ja monimuolinen.",
                 "most_advanced": "Blockchain ei 100 % ilmainen kaikkien kulujen osalta. Se on myös kaikista kehittynein online-lompakko kaikkilla rakastamillanne toiminnoilla, kuten:",
-                "client_side_encryption": "Turvallinen selaimessa tehty koodaus", // Translate again!
+                "client_side_encryption": "Turvallinen selaimessa tehty koodaus",
                 "notifications": "Ilmoitukset maksuista tekstiviestein ja s-postitse",
                 "backups": "Tee omat varmuuskopiosi",
                 "import_export": "Tuo ja vie yksityiset avaimet",
@@ -43,11 +43,11 @@
                 "usage": "My Walletin käyttäminen ei eroa PayPalista tai verkkopankista. Kirjautuessasi näet saldosi sekä viimeaikaiset tapahtumat.",
                 "also_available": "Muista, että Blockchain on myös saatavilla:",
                 "find_more": "Lue lisää kuinka takaamme tietoturvan sinulle",
-                "instant_deposits": "Välittömät panot", // Pano = putting money to account
+                "instant_deposits": "Välittömät panot",
                 "full_control": "Blockchain-lompakollasi, saat täyden vallan yksityisavaimeesi, jolloin lompakkoasi ei voida koskaan jäädyttää tai sulkea ja voit siirtää lompakon myös muihin bitcoin-ohjelmiin",
                 "how_it_works": "Haluaisitko kenties tietää hieman enemmän? Lue kuinka se toimii.",
                 "in_control": "Sinun olkoon valtasi",
-                "merchants": "Yli 1000 kauppiasta hyväksyy jo bitcoinit maailmanlaajuisesti joka päivä aloittavien lisäksi. Kaikki nettipokerista orgaaniseen kahviin, sinä päätät ja valitset, voit maksaa sen bitcoineilla.", // Needs attention!
+                "merchants": "Yli 1000 kauppiasta hyväksyy jo bitcoinit maailmanlaajuisesti joka päivä aloittavien lisäksi. Kaikki nettipokerista orgaaniseen kahviin, sinä päätät ja valitset, voit maksaa sen bitcoineilla.",
                 "official_wiki": "Näe koko lista bitcoinit hyväksyvistä kauppiaista virallisessa wikissä.",
                 "loved": "Kauppiaiden rakastama",
                 "direct_deposit": "Oletko innokas? Hienoa, koska voit sijoittaa bitcoineihin tilisiirrolla, käteisellä ja puhelimitse Blockchain-lompakkoosi sekunneissa.",
@@ -86,20 +86,19 @@
             "terms": "Käyttöehdot",
             "part_of": "Osa"
         },
-		// Charts-part is only partially translated!!
         "charts": {
             "show_data_points": "Näytä datapisteet",
             "market_price2": "Kaavio joka näyttää USD:n hinnan Mt.gox-pörssistä",
             "market_cap2": "Kaavio joka näyttää bitcoinien kokonaismäärän levikissä * Vaihtokurssi USD:na.",
             "total_bitcoins": "Bitcoinien kokonaismäärä levikissä",
-            "hash_rate_label": "Hash Rate GH/s", // Not translated
+            "hash_rate_label": "Hash Rate GH/s", 
             "n_unique_addresses2": "Kaavio, joka näyttää uniikkien bitcoin-osoitteiden määrän päivää kohden.",
             "market_cap_label": "Markkina-arvo (USD)",
             "n_transactions": "Tapahtumien määrä",
             "my_wallet_n_tx": "My Wallet'n tapahtumien määrä päivää kohden",
-            "my_wallet_network_percent": "Percentage of Bitcoin Transactions Originating from Blockchain", // Not translated
-            "my_wallet_network_percent_label" : "Network Percent", // Not translated
-            "trade_vol2": "A chart showing the USD trade volume from the top exchanges.", // Not translated
+            "my_wallet_network_percent": "Percentage of Bitcoin Transactions Originating from Blockchain",
+            "my_wallet_network_percent_label" : "Network Percent",
+            "trade_vol2": "A chart showing the USD trade volume from the top exchanges.",
             "n_transactions_excluding_popular3": "Suositut osoitteet",
             "errors": {
                 "no_stats": "Tilastoja ei löydy tälle aikajaksolle"
@@ -221,27 +220,27 @@
         "home": {
             "other_links": {
                 "most_popular": "Suosituin osoite",
-                "strange2": "Transactions which we were unable to decode the output address", // Not translated
-                "double_spends": "Double Spends", // Not translated
+                "strange2": "Transactions which we were unable to decode the output address", 
+                "double_spends": "Double Spends",
                 "largest2": "Suurimmat 100 tapahtumaa viimeisimmästä 50 000 tapahtumasta",
-                "hub_nodes2": "A list of the most well connected bitcoin super nodes", // Not translated
+                "hub_nodes2": "A list of the most well connected bitcoin super nodes",
                 "wallet": "Oma lompakko", 
                 "unconfirmed": "Vahvistamattomat tapahtumat",
-                "hub_nodes": "Hub Nodes", // Not translated
-                "strange": "Strange Transactions", // Not translated
-                "rejected": "Rejected Inventory", // Not translated
+                "hub_nodes": "Hub Nodes",
+                "strange": "Strange Transactions",
+                "rejected": "Rejected Inventory",
                 "most_popular2": "Osoitteet jotka ovat vastaanottaneet eniten maksuja",
-                "globe": "Bitcoin Nodes Globe", // Not translated
+                "globe": "Bitcoin Nodes Globe",
                 "nodes2": "Loki kaikista bitcoin-solmuista, joihin blockchain.info on yhdistetty",
-                "rejected2": "Blocks and transactions which have been rejected by our nodes", // Not translated
-                "globe2": "WebGL globe showing bitcoin nodes (Requires Chrome, Safari)", // Not translated
-                "double_spends2": "Double spends detected in the last 500,000 transactions", // Not translated
-                "orphaned2": "Valid blocks not part of the main bitcoin chain", // Not translated
+                "rejected2": "Blocks and transactions which have been rejected by our nodes",
+                "globe2": "WebGL globe showing bitcoin nodes (Requires Chrome, Safari)",
+                "double_spends2": "Double spends detected in the last 500,000 transactions",
+                "orphaned2": "Valid blocks not part of the main bitcoin chain",
                 "pools": "Louhintatilastot",
                 "header": "Muita bitcoin-linkkejä",
                 "largest": "Suurimmat tapahtumat",
-                "pools2": "Pie chart showing the market share of the top bitcoin mining pools", // Not translated
-                "orphaned": "Orphaned Blocks", // Not translated
+                "pools2": "Pie chart showing the market share of the top bitcoin mining pools",
+                "orphaned": "Orphaned Blocks",
                 "notifications": "Maksuilmoitukset",
                 "nodes": "Lista bitcoin-solmuista",
                 "notifications2": "Vastaanota ilmaisia sähköposti-ilmoituksia, kun bitcoin-osoitteissasi on tapahtumia",
@@ -388,36 +387,36 @@
             "visualize" : "Visualisoi",
             "tree_chart" : "Näytä puukaavio",
             "inputs_and_outputs" : "Sisään ja -ulostulot",
-            "total_input" : "Total Input", // Not translated
-            "total_output" : "Total Output", // Not translated
+            "total_input" : "Total Input", 
+            "total_output" : "Total Output",
             "fees" : "Kulut",
             "estimated_btc_transacted" : "Arvioitu BTC-summa",
             "network_propagation" : "Network Propagation (Click to view)",
             "decoded" : "dekoodattu",
-            "input_scripts" : "Input Scripts", // Not translated
-            "output_scripts" : "Output Scripts", // Not translated
+            "input_scripts" : "Input Scripts",
+            "output_scripts" : "Output Scripts",
             "strange" : "Omituinen",
-            "null_script_or_error" : "Null script or error decoding", // Not translated
+            "null_script_or_error" : "Null script or error decoding",
             "ok" : "OK",
-            "conflicting_transaction_redirect" : "The transaction hash you searched for was not found. However a replacement for the transaction is listed below.", // Not translated
-            "conflicting_transaction_found" : "A conflicting transaction has been detected in our memory pool. The transaction hash displayed below may change." // Not translated
+            "conflicting_transaction_redirect" : "The transaction hash you searched for was not found. However a replacement for the transaction is listed below.",
+            "conflicting_transaction_found" : "A conflicting transaction has been detected in our memory pool. The transaction hash displayed below may change."
         },
         "transaction" : {
             "public_note" : "Julkinen huomautus:",
             "size" : "Koko:",
             "fee" : "Kulut:",
-            "escrow" : "Escrow", // Not translated
+            "escrow" : "Escrow",
             "output" : "Ulostulo",
-            "input_decode_error" : "Unable to decode input address", // Not translated
-            "output_decode_error" : "Unable to decode output address", // Not translated
-            "no_inputs" : "No Inputs (Newly Generated Coins)", // Not translated
+            "input_decode_error" : "Unable to decode input address", 
+            "output_decode_error" : "Unable to decode output address",
+            "no_inputs" : "No Inputs (Newly Generated Coins)",
             "spent" : "Kulutettu",
             "unspent" : "Kuluttamatta",
             "unconfirmed_transaction" : "Vahvistamaton tapahtuma!",
             "confirmations" : "Vahvistukset",
             "double_spend" : "Tuplakulutus!"
         },
-		 // Not translated
+		 
         "unspent_outputs" : {
             "title" : "Unspent Outputs {0}",
             "meta_description" : "A list of all unspent bitcoin outputs belonging to {0}.",
@@ -456,7 +455,7 @@
            "donation_button" : "Lahjoituspainike",
            "sent" : "Lähetetty",
            "received" : "Vastaanotettu",
-           "escrow" : "Escrow", // Not translated
+           "escrow" : "Escrow",
            "confirmed" : "Vahvistettu",
            "confirmed_only" : "Ainoastaan vahvistetut",
            "newest_first" : "(Newest First)",
@@ -465,9 +464,9 @@
            "no_transactions" : "No transactions found for this address, it has probably not been used on the network yet.",
            "previous" : "Edellinen",
            "next" : "Seuraava",
-           "too_large_to_filter" : "This Address ledger is too large to filter", // Not translated
+           "too_large_to_filter" : "This Address ledger is too large to filter",
            "invalid_address" : "Sori, tämä ei ole oikeaoppinen bitcoin-osoite",
-           "invalid_hash_160" : "Sorry this is is not a valid  hash 160", // Not translated
+           "invalid_hash_160" : "Sorry this is is not a valid  hash 160",
            "no_address_provided" : "Ei osoitetta annettu"
         },
         "wallet_index" : {
@@ -481,8 +480,8 @@
             "p2" : "Me emme ole pankki; sinulla on täysi omistusoikeus rahaasi. Emme näe lompakkosi saldoa, tapahtumia tai tehdä maksuja sinun puolestasi.",
             "create_my_free_wallet" : "Luo ilmainen lompakkoni",
             "try_demo_account" : "Kokeile demotiliä",
-            "techradar_quote" : "By 2015, cash could be looking like an endangered species", // Not translated
-            "introduction_video" : "Bitcoin Introduction View", // Not translated
+            "techradar_quote" : "By 2015, cash could be looking like an endangered species",
+            "introduction_video" : "Bitcoin Introduction View", 
             "slides" : {
                 "mobile_support" : "Mobiilituki",
                 "mobile_support_p1" : "Web-käyttöliittymämme tukee kaikkia suosittuja mobiililaitteita kuten mm.",
@@ -572,14 +571,14 @@
                 "summary_table" : {
                     "title" : "Yhteenveto",
                     "number_of_transactions" : "Tapahtumien määrä",
-                    "output_title" : "Output Total", // Not translated
-                    "estimated_transaction_volume" : "Estimated Transaction Volume", // Not translated
+                    "output_title" : "Output Total",
+                    "estimated_transaction_volume" : "Estimated Transaction Volume",
                     "transaction_fees" : "Tapahtumien kulut",
                     "height" : "Pituus",
                     "timestamp" : "Aikaleima",
-                    "main_chain" : "Main Chain", // Not translated
-                    "orphaned" : "Orphaned", // Not translated
-                    "received_time" : "Vastaanottoaika", // Not translated
+                    "main_chain" : "Main Chain",
+                    "orphaned" : "Orphaned",
+                    "received_time" : "Vastaanottoaika",
                     "relayed_by" : "Välittäjä",
                     "difficulty" : "Vaikeusaste",
                     "bits" : "Bitit",
@@ -593,13 +592,13 @@
                     "hash" : "Hash",
                     "previous_block" : "Edellinen blokki",
                     "next_block" : "Seuraava blokki",
-                    "merkle_root" : "Merkle Root" // Not translated
+                    "merkle_root" : "Merkle Root"
                 },
-                "network_propagation" : "Network Propagation", // Not translated
+                "network_propagation" : "Network Propagation",
                 "click_to_view" : "Klikkaa katsoaksesi",
                 "transactions_header" : "Tapahtumat",
                 "transactions_sub_header" : "Tähän blokkiin sisältyvät tapahtumat",
-                "no_block_index" : "No block index provided" // Not translated
+                "no_block_index" : "No block index provided"
         },
         "wallet_new" : {
             "title" : "My Wallet",
@@ -703,7 +702,7 @@
                     "debugging" : "Debuggaus",
                     "display" : "Näyttö"
                 },
-				// Not translated
+				
                 "pbkdf2_iterations" : {
                     "header" : "PBKDF2-iteraatiot",
                     "p1" : "PBKDF2 is a function which stretches your password increasing the effort required to bruteforce it. A higher number of iterations is better however you may notice a slow down of your browser.",
@@ -717,7 +716,7 @@
                 "logging_deletion" : "Lokin tason muuttaminen ei vaikuta nykyisiin lokeihin. Lokit vanhenevat 2 viikon kuluttua.",
                 "logging_level" : "Lokin taso",
                 "logging_disabled" : "Lokit pois käytöstä. Toimintoja ei kirjata lokiin.",
-                "logging_level_description" : "The logging level controls what data is recorded when actions are taken using your wallet. By default the logging is turned off apart from actions taken by admins. Enabling it provides better security by providing more information on potential unauthorized access to your wallet however some privacy may be sacrificed.", // Not translated
+                "logging_level_description" : "The logging level controls what data is recorded when actions are taken using your wallet. By default the logging is turned off apart from actions taken by admins. Enabling it provides better security by providing more information on potential unauthorized access to your wallet however some privacy may be sacrificed.", 
                 "logging_disabled" : "Lokit pois päältä",
                 "logging_hashed" : "Kirjaa tapahtumat hashatulla IP-osoitteella",
                 "logging_full" : "Kirjaa tapahtumien IP-osoite ja agentti",
