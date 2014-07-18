@@ -73,6 +73,7 @@
         },
         "footer": {
             "about_us": "O nas",
+            "contact_us": "Skontaktuj się z nami",
             "nodes_connected": "Połączonych węzłów",
             "status": "Stan:",
             "enable": "Włącz",
@@ -88,7 +89,7 @@
         },
         "charts": {
             "show_data_points": "Pokaż punkty danych",
-            "market_price2": "Wykres pokazujący ceny rynkowe USD z Mt.gox",
+            "market_price2": "Wykres pokazujący ceny rynkowe USD z głównych giełd",
             "market_cap2": "Wykres pokazujący całkowitą liczbę bitcoinów w obiegu * cena rynkowa w USD.",
             "total_bitcoins": "Całkowita liczba Bitcoinów w obiegu",
             "hash_rate_label": "Hash Rate GH/s",
@@ -98,6 +99,7 @@
             "my_wallet_n_tx": "Liczba transakcji na dzień z usługi Mój Portfel",
             "my_wallet_network_percent": "Procent transakcji Bitcoin pochodzących z Blockchain.info",
             "my_wallet_network_percent_label" : "Procent sieci",
+            "my_wallet_n_active_users" : "Liczba aktywnych użytkowników usługi Mój Portfel",
             "trade_vol2": "Wykres pokazujący wolumen USD z najpopularniejszych giełd.",
             "n_transactions_excluding_popular3": "popularne adresy",
             "errors": {
@@ -143,6 +145,7 @@
             "output_volume_label": "Wolumen wyjściowy (BTC)",
             "n_transactions_per_block2": "Wykres średniej liczby transakcji na blok.",
             "my_wallet_transaction_volume": "Wolumen transakcji w usłudze Mój Portfel",
+            "my_wallet_transaction_volume_usd": "Wolumen transakcji w USD w usłudze Mój Portfel",
             "n_transactions_excluding_popular": "Liczba transakcji z wyłączeniem popularnych adresów",
             "estimated_transaction_volume_usd_label": "Wolumen transakcji (USD)",
             "days_destroyed_label": "Days Destroyed",
@@ -409,6 +412,7 @@
             "output" : "Wyjście",
             "input_decode_error" : "Nie można odkodować adresu wejściowego",
             "output_decode_error" : "Nie można odkodować adresu wyjściowego",
+            "sealth_address_data" : "Sealth Address Data",
             "no_inputs" : "Brak wejść (Nowo Wygenerowane Monety)",
             "spent" : "Wydana",
             "unspent" : "Niewydana",
@@ -476,7 +480,7 @@
                 "p2" : "FAQ dla początkujących"
             },
             "p1" : "Mój Portfel jest darmowym portfelem bitcoin online, dzięki któremu możesz dokonywać płatności na świecie za darmo. Czynimy płacenie za pomocą bitcoinów łatwym i bezpiecznym, dostępnym wszędzie w Twoim telefonie lub na komputerze.",
-            "p2" : "Nie jesteśmy bankiem, jesteś całkowitym właścicielem swoich pieniędzy. Nie możemy podejrzeć twojego stanu konta, Twoich transakcji lub dokonywać płatności w Twoim imieniu.",
+            "p2" : "Nie jesteśmy bankiem; jesteś całkowitym właścicielem swoich pieniędzy. Nie możemy podejrzeć twojego stanu konta, Twoich transakcji lub dokonywać płatności w Twoim imieniu.",
             "create_my_free_wallet" : "Stwórz Mój Darmowy Portfel",
             "try_demo_account" : "Wypróbuj na koncie testowym",
             "techradar_quote" : "Od 2015, realne pieniądze będą wyglądały na zagrożony gatunek",
@@ -626,7 +630,6 @@
             "password_strength_p1" : "Wymagamy, aby hasło miało minimum 10 znaków długości aby upewnić się, że nawet gdy nasza baza danych zostanie zagrożona, Twój portfel pozostanie bezpieczny. Rozszyfrowanie hasła 10-znakowego zajmie ponad 1000 lat.",
             "is_already_registered" : "Już jesteś zarejestrowany?",
             "existing_account" : "Jeżeli już posiadasz konto Mój Portfel {0}",
-            "disclaimer" : "Zrzeczenie się",
             "anonymity_policy" : "Polityka Anonimowości",
             "please_read" : "Proszę przeczytać naszą {0}.",
             "optional" : "Opcjonalnie",
@@ -660,7 +663,6 @@
                 "confirm_password_placeholder" : "Wprowadź ponownie swoje hasło",
                 "continue_button" : "Stwórz Mój Portfel"
             }
-        
         },
         "wallet_app" : {
             "title" : "Mój Portfel",
@@ -803,7 +805,7 @@
                 "show_hide_pairing_code" : "Pokaż / Ukryj kod.",
                 "forgot_password_warning" : "Ostrzeżenie!",
                 "forgot_password_warning_p2" : "Każde zapomnienie hasła skutkuje brakiem możliwości dostępu do portfela. Tutaj nie ma procesu odzyskiwana hasła!",
-                "password_notice" : "Twoje hasło nigdy nie jest udostępniane naszym serwerom w żadnej formie. Oznacza to, że Twój portfel będzie nadal bezpieczny, nawet gdy nastąpi włamanie na nasze serwery. Jednakże oznacza to brak funkcji odzyskiwania/resetowania hasła.",          
+                "password_notice" : "Twoje hasło nigdy nie jest udostępniane naszym serwerom w żadnej formie. Oznacza to, że Twój portfel będzie nadal bezpieczny, nawet gdy nastąpi włamanie na nasze serwery. Jednakże oznacza to brak funkcji odzyskiwania/resetowania hasła.",
                 "password_mnemonic" : "Mnemonika hasła",
                 "password_mnemonic_description" : "Mnemonika hasła może zostać użyta do odzyskania hasła do portfela jeżeli zostanie zapomniane. Bez mnemoniki nie ma sposobu aby odzyskać zapomniane hasło. Podczas zmiany hasła, mnemonika ulega zmianie.",
                 "show_hide_password_mnemonic" : "Pokaż / Ukryj Mnemonikę Hasła",
@@ -1022,7 +1024,7 @@
                 "send_shared_bonus" : "Nie ma opłat dla tej transakcji oraz zostanie zapłacony bonus {0}.",
                 "send_shared_free" : "Wysyłanie współdzielone jest aktualnie darmowe.",
                 "shared_coin_t1" : "Shared Coin",
-                "shared_coin_sub" : "Ograniczające zaufanie mieszanie monet korzystające z łączenia monet i analizy skażenia",
+                "shared_coin_sub" : "Usługa prywatności, która pomaga użytkownikom tworzenie łączonych transakcji",
                 "shared_coin_help_title" : "Coś poszło nie tak?",
                 "shared_coin_help_description" : "Podczas wysyłania współdzielonych transakcji, jest używana pewna liczba adresów pośrednich. Jeżeli coś przerwie ten proces lub błąd uniemożliwi ukończenie transakcji, monety mogą utknąć w adresie pośredniczącym. Kliknij przycisk poniżej, aby zwrócić monety pozostawione w adresach pośredniczących. Ten proces może potrwać kilka minut, zanim zostanie ukończony.",
                 "shared_coin_recover" : "Odzyskaj adresy pośredniczące",
@@ -1072,6 +1074,7 @@
                 "fee_percent_per_repetitions" : "Procent opłaty na powtórzenie",
                 "minimum_fee" : "Minimalna opłata na powtórzenie",
                 "new_app" : "Nowość!",
+                "sharedcoin_donate" : "Zaznacz aby podarować dodatkowe 0.5% z Twojej transakcji aby pomóc finansować przyszłe ulepszenia darmowej usługi Blockchain."
             },
             "import_export" : {
                 "advanced_warning_title" : "Ostrzeżenie!",
@@ -1292,6 +1295,7 @@
                 "shared_coin_transaction_error" : "Wystąpił błąd podczas kończenia tej transakcji. Aby uzyskać więcej informacji sprawdź konsolę javascript."
             },
             "errors" : {
+                "verification_retry_limit_reached" : "Przekroczono limit ponownych prób użycia kodu weryfikacyjnego",
                 "authorization_required_by_email" : "Wymagana autoryzacja. Proszę sprawdzić e-mail po link zatwierdzający i odświeżyć tę stronę.",
                 "please_login_using_guid" : "Niepewny Alias. Proszę zalogować się korzystając z linku z identyfikatorem portfela.",
                 "account_locked" : "To konto zostało zablokowane",
@@ -1491,6 +1495,9 @@
             "sub_header" : "Kim jesteśmy i co robimy",
             "security" : "Bezpieczeństwo",
             "privacy" : "Prywatność",
+            "advertise" : "Zareklamuj się",
+            "careers" : "Kariera",
+            "more_information" : "Więcej informacji",
             "availability" : "Dostępność",
             "about_p1" : "Blockchain.info jest najbardziej popularnym portfelem Bitcoin i eksploratorem bloków. Od stycznia 2014 ta strona miała ponad 1.1 milion zarejestrowanych użytkowników oraz 200 milion odwiedzin na miesiąc.",
             "security_p1" : "Naszą polityką bezpieczeństwa jest przechowywanie jak najmniejszej ilości danych jak tylko się da, które w przypadku naruszenia bezpieczeństwa, mogą dotknąć naszych użytkowników. Podczas korzystania z naszej usług Mój Portfel nie przechowujemy ani nie przechwytujemy żadnych haseł lub informacji identyfikujących osobę, dane portfela są wyłącznie przechowywane w zaszyfrowanej formie. Blockchain.info działa na prywatnie posiadanym dedykowanym sprzęcie, do którego dostęp może uzyskać tylko administrator strony. Dokonujemy regularnych przeglądów bezpieczeństwa zarówno kodu jak i serwerów włączając w to skanowanie naszej strony za pomocą nmap aby wcześnie wykryć możliwe podatności. Dostęp do tej strony można uzyskać poprzez bezpieczne połączenie poprzez protokół https:// zweryfikowany przez GoDaddy.",
@@ -1502,6 +1509,7 @@
             "view_website_status" : "Zobacz stan strony",
             "privacy_policy" : "Polityka Prywatności",
             "disclaimer" : "Zrzeczenie się",
+            "terms_of_service" : "Warunki użytkowania",
             "contact_us" : "Skontaktuj się",
             "name" : "Nazwa:",
             "email" : "Email:",
@@ -1565,7 +1573,9 @@
             "port" : "Port",
             "connected_time" : "Połączony (minuty)",
             "location" : "Lokalizacja",
-            "hostname" : "Nazwa hosta"
+            "hostname" : "Nazwa hosta",
+            "client_version" : "Wersja klienta",
+            "sub_version" : "Wersja szczegółowa"
         },
         "notifications" : {
             "payment_received_title" : "Otrzymano Płatność Bitcoin",
