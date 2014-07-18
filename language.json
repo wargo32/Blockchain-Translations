@@ -1360,7 +1360,7 @@
                 "error_updating_auto_backup" : "Error Updating Automatic Email Backup Settings",
                 "error_updating_auth_saving" : "Error Updating Authentication Saving Settings",
                 "error_updating_alias" : "Error updating alias",
-                "alias_too_long" : "Alias can be a macimum of 25 characters",
+                "alias_too_long" : "Alias can be a maximum of 25 characters",
                 "error_alias_taken" : "Alias Already Taken",
                 "unknown_currency_code" : "Unknown Currency Code",
                 "not_a_local_currency_code" : "Not A Local Currency Code",
@@ -1826,8 +1826,8 @@
             }
         },
         "deposit" : {
-            "order_success" : "Order successfully completed your coins should be on the way shortly. If you do not receive your order or have any other questions please contact us.",
-            "order_error" : "Error processing payment or User cancelled you have not been charged. You may now close this dialog.",
+            "order_success" : "Order successfully completed, your coins should be on the way shortly. If you do not receive your order or have any other questions please contact us.",
+            "order_error" : "Error processing payment or User cancelled, you have not been charged. You may now close this dialog.",
             "order_paid" : "Thank you for confirming that payment has been sent. Payments usually clear within 1 minute to 4 hours a confirmation sms message will be sent on completion. If you do not receive your order or have any other questions please contact us.",
             "deposit_processed" : "Your deposit of {0} has been processed. Thank You {1}",
             "phone_sms" : "Phone / SMS",
