@@ -2,6 +2,9 @@
     "name": "Polski",
     "code": "pl",
     "flag" : "pl.png",
+    "properties":{
+      "extends":"auto_polish"
+    },
     "strings": {
         "com": {
             "home": {
@@ -126,7 +129,7 @@
             "avg_block_size_label": "MB",
             "my_wallet_transaction_volume_label": "Wolumen transakcji (BTC)",
             "estimated_transaction_volume_usd": "Szacowana wartość USD wolumenu transakcji",
-            "transaction_fees2": "Wykresy pokazujące całkowitą wartość w BTC opłat transakcyjnych, które mogą zarobić górnicy na dzień.",
+            "transaction_fees2": "Wykres pokazujący całkowitą wartość w BTC opłat transakcyjnych, które mogą zarobić górnicy na dzień.",
             "miners_revenue_label": "Zarobki górników (USD)",
             "hash_rate2": "Szacowana liczba gigahashy na sekundę (biliony hashy na sekundę) w sieci bitcoin.",
             "balance_of_address": "Saldo adresu bitcoin:",
@@ -1424,21 +1427,18 @@
             "sub_header" : "Narzędzia dla twórców do pobierania danych o łańcuchu bloków",
             "abuse_notice" : "Usługi dostarczane przez blockchain.info są darmowe. Prosimy ich nie nadużywać.",
             "complete_merchant_solution" : "Kompletne rozwiązanie dla handlarzy.",
-            "bitpay_description" : "Blockchain mocno poleca Bitpay - Światowy Lider w Rozwiązaniach Biznesowych Bitcoin. Bitpay oferuje kompletne rozwiązanie dla zakupów wraz z automatyczną konwersją na lokalne waluty oraz integrację z hostem oprogramowania sklepowego.",
             "welcome" : "Witamy Twórców!",
             "welcome_p1" : "Znajdziesz tutaj wszystko co potrzebujesz aby zacząć kodowanie dla bitcoina. Możesz wykorzystać własne API Blockchain.info lub",
-            "third_party_apis" : "API innych serwisów",
-            "welcome_p2" : "dostarczane przez inne serwisy.",
             "payment_processing" : "Przetwarzanie płatności.",
             "wallet_api" : "API Portfela Blockchain",
             "no_account_required" : "Konto nie jest wymagane",
             "view_documentation" : "Zobacz dokumentację",
             "account_required" : "Wymagane konto Mój Portfel",
             "receive_payments" : "Odbieraj płatności",
-            "receive_payments_description" : "Niezwykle prosty sposób dla stron internetowych aby otrzymywać płatności bitcoin.",
+            "receive_payments_description" : "Niezwykle prosty sposób dla stron internetowych aby otrzymywać płatności bitcoin. Ta usługa jest całkowicie darmowa i bezpieczna. Idealna dla biznesu lub użytku osobistego.",
             "send_payments" : "Wysyłaj płatności",
             "blockchain_wallet_api" : "API Portfela Blockchain",
-            "blockchain_wallet_api_description" : "API do wysyłania i odbierania płatności z konta Portfela Blockchain",
+            "blockchain_wallet_api_description" : "API do wysyłania i odbierania płatności z konta Portfela Blockchain.",
             "send_description" : "Proste wykorzystanie JSON api do programowego wysyłania i odbierania bitcoinów z konta Mój Portfel.",
             "json_rpc" : "JSON RPC kompatybilny z Bitcoin-Qt",
             "json_rpc_description" : "Blockchain.info może funkcjonować jako serwer RPC bitcoind dla handlarzy w celu powiązania z kontem Mój Portfel.",
